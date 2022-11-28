@@ -1,6 +1,7 @@
 .login-header{
-   border:5px solid rgb(151, 41, 41);
-   background-color:#a0d2eb;
+   background-color: #004b96;
+   opacity: .90;
+   border-radius: 30px;
    margin: 230px;
    margin-left:580px;
    padding:150px;

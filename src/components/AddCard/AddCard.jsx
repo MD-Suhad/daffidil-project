@@ -37,7 +37,7 @@ const AddCard = () => {
       <div className="grid justify-center text-center ">
         <div className="flex justify-center mb-3">
           <label
-            style={{ marginRight: "10px", textAlign: "center" }}
+            style={{ marginRight: "10px",fontSize:'30px',color:'white' }}
             htmlFor=""
           >
             CARD ID:
@@ -52,7 +52,7 @@ const AddCard = () => {
         </div>
         <div className="flex justify-center mb-3">
           <label
-            style={{ marginRight: "10px", textAlign: "center" }}
+            style={{ marginRight: "10px",fontSize:'30px',color:'white' }}
             htmlFor=""
           >
             Student ID:
@@ -66,7 +66,7 @@ const AddCard = () => {
           />
         </div>
         <div className="flex justify-center mb-3 ">
-          <label style={{ marginRight: "10px", textAlign: "start" }} htmlFor="">
+          <label style={{ marginRight: "10px",fontSize:'30px',color:'white' }} htmlFor="">
             Student Name:
           </label>
           <input
@@ -78,7 +78,7 @@ const AddCard = () => {
           />
         </div>
         <div className="flex justify-center mb-3 text-start">
-          <label style={{ marginRight: "10px" }} htmlFor="">
+          <label style={{ marginRight: "10px",fontSize:'30px',color:'white' }} htmlFor="">
             Access:
           </label>
           <input

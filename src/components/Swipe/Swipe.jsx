@@ -50,7 +50,7 @@ const Swipe = () => {
             <div className="grid justify-center text-center ">
         <div className="flex justify-center mb-3">
           <label
-            style={{ marginRight: "10px", textAlign: "center",textSize:'555px' }}
+           style={{ marginRight: "10px",fontSize:'30px',color:'white' }}
             htmlFor=""
           >
             CARD ID:
@@ -65,7 +65,7 @@ const Swipe = () => {
         </div>
         <div className="flex justify-center mb-3">
           <label
-            style={{ marginRight: "10px", textAlign: "center" }}
+           style={{ marginRight: "10px",fontSize:'30px',color:'white' }}
             htmlFor=""
           >
             Student ID:
@@ -79,7 +79,7 @@ const Swipe = () => {
           />
         </div>
         <div className="flex justify-center mb-3 ">
-          <label style={{ marginRight: "10px", textAlign: "start" }} htmlFor="">
+          <label style={{ marginRight: "10px",fontSize:'30px',color:'white',textAlign:'left' }}htmlFor="">
             Student Name:
           </label>
           <input
@@ -91,7 +91,7 @@ const Swipe = () => {
           />
         </div>
         <div className="flex justify-center mb-3 text-start">
-          <label style={{ marginRight: "10px" }} htmlFor="">
+          <label style={{ marginRight: "10px",fontSize:'30px',color:'white' }} htmlFor="">
             Access:
           </label>
           <input
@@ -106,7 +106,7 @@ const Swipe = () => {
 
             </Col>
             <Col md={5}>
-              <img style={{height: "120px",marginLeft:'130px',borderRadius:"50%"}} src={cover2} alt="" />
+              <img style={{height: "220px",marginLeft:'130px',borderRadius:"50%"}} src={cover2} alt="" />
             </Col>
            </Row>
          </div>
