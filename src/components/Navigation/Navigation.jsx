@@ -58,13 +58,13 @@ const Navigation = () => {
                     }}
                     className=" pr-5 text-3xl shadow-lg shadow-cyan-500/50 
                      font-mono
-                     bg-gray-200 	text-black font-bold m-9 rounded shadow border-2 bg-gray-200		
+                     bg-gray-200 	text-black font-bold  rounded shadow border-2 bg-gray-200		
                    hover:bg-transparent
                    hover:text-purple-700 transition-all duration-300
                    "
-                    href="#users"
+                    href="/zone"
                   >
-                    Users
+                    AccessZone
                   </Nav.Link>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const Navigation = () => {
                     Swipe
                   </Nav.Link>
                 </div>
-                <div className="configure-navigation">
+                <div className="device-navigation">
                   <Nav.Link 
                   style={{
                     display: 'flex',
@@ -103,9 +103,9 @@ const Navigation = () => {
                  hover:bg-transparent
                  hover:text-purple-700 transition-all duration-300
                  "
-                    href="/configure"
+                    href="/device"
                   >
-                    Configure
+                    DeviceInfo
                   </Nav.Link>
                 </div>
                 {/* <Nav.Link   className="mt-5 ml-3 text-3xl 

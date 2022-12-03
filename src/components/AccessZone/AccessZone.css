@@ -1,0 +1,20 @@
+.zone-header{
+   background-color: #004b96;
+   opacity: .85;
+   border-radius: 10px;
+   border-width: 5px;
+   margin-left:380px;
+   margin-right:380px;
+   margin-top:150px;
+   padding:25px;
+   color:white;
+}
+.zone-table{
+   background-color:  #004b96;
+   margin-left:480px;
+   margin-right:380px;
+}
+.zone-header input{
+   background-color: #f1f1f1;
+   color:black;
+}
